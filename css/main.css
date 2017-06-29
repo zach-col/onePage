@@ -1,0 +1,176 @@
+body{
+  font-family: "Times New Roman", Times, serif;
+}
+/* ---------------------------------   header css */
+/* header container */
+.headerContainer {
+  position: relative;
+}
+/* header text */
+.headerText {
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+/* header image */
+#headerDiv { 
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  /*opacity: 0.3;*/
+}
+/* header button */
+
+/* navbar on mobile*/
+@media screen and (max-width: 767px) {
+  .navbar-inverse .navbar-nav>li>a {
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+/* ----------------------------------------- about css */
+/* about container */
+#aboutContainer{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: 100vh
+}
+/* about image of person */
+#aboutImage{
+  height: 400px;
+  width: 100%;
+  padding-top: 20px;
+}
+@media screen and (max-width: 767px) {
+  #aboutInfo {
+    text-align: center;
+  }
+}
+/* about info header text */
+#aboutText{
+  color: black;
+}
+/* center about text on mobile screens */
+@media screen and (max-width: 767px) {
+  #aboutText {
+    text-align: center;
+  }
+}
+/* ----------------------------------------- intro css */
+/* intro container */
+#introContainer{
+  height: 100vh;
+  background-color: black;
+}
+/* intro header */
+#introHeader{
+ color: white;
+ padding-top: 40px;
+}
+/* ------------------------------------------ social css */
+#socialContainer{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.socialColor{
+  background-color: white;
+  color: white;
+  height: 81px;
+}
+#socialIcon{
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  padding: 20px;
+}
+
+.socialIconLink{
+  color: black;
+  text-decoration: none;
+}
+.socialIconLink:hover, .socialIconLink:active {
+  color: grey;
+  text-decoration: none;
+}
+/* -------------------------------------------- contact */
+#contactContainer{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#contactHeader{
+  color: black;
+}
+#contactHr{
+  color: grey;
+  height: 1px;
+  width: 34%;
+  background-color: grey
+}
+#createdBy{
+  float: left;
+  height: 50px;
+  padding-top: 15px;
+  color: white;
+  font-size: 18px;
+  line-height: 20px;
+  text-decoration: underline;
+}
+
+
+/* ------------------------------------------------ testi css */
+#testHeader{
+  color: white;
+}
+#testContainer{
+  background-color: black;
+}
+.testInfoBox{
+  background-color: white;
+  margin-bottom: 90px;
+}
+.testInfo{
+  text-align: center;
+  padding: 30px;
+}
+.testImg{
+  display: block;
+  margin: 0 auto;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.testName{
+  text-align: center;
+  padding-bottom:30px;
+}
+/* --------------------  plans */
+#planContainer{
+  margin-top: 40px;
+}
+.planFeaturesContainer{
+  border: 1px solid black;
+  padding-top: -20px;
+  border-radius: 25px 25px 25px 25px;
+  margin-top: 20px;
+}
+.planHeaderContainer{
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  border-radius: 25px 25px 0px 0px;
+}
+.planHeader{
+  color: black;
+  text-align: center;
+}
+.planFeature{
+  text-align: center;
+}
+.customIcon{
+  color: green;
+}

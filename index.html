@@ -1,20 +1,317 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>bootstrap starter</title>
+<title>Lorem Ipsum</title>
   <meta charset="utf-8">
   <!-- for mobile -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- bootstrap css 3.3.7 -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-
+  <!-- bootstrap css min -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <!-- main css -->
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
+  <!-- navbar css -->
+  <link rel="stylesheet" type="text/css" href="css/navbar.css" />
+  <!-- font awesome cdn -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
-<body>
-  <h1>starter</h1>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-  <!-- jquery v 3.2.1 -->
-  <script src="js/jquery.min.js"></script>
-  <!-- bootstrap v 3.3.7 js -->
-  <script src="js/bootstrap.min.js"></script>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar">
+      </span>
+      <span class="icon-bar">
+      </span>
+      </button>
+      <a class="navbar-brand" href="#home">Lorem Ipsum</a>
+      </div>
+    <div id="navbar" class="navbar-collapse collapse">
+
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a data-toggle="collapse" data-target=".navbar-collapse.in" href="#home">Home</a>
+        </li>
+        <li>
+          <a  data-toggle="collapse" data-target=".navbar-collapse.in" href="#about">About</a>
+        </li>
+        <li>
+          <a data-toggle="collapse" data-target=".navbar-collapse.in" href="#intro">Intro</a>
+        </li>
+        <li>
+          <a data-toggle="collapse" data-target=".navbar-collapse.in" href="#social">Social</a>
+        </li>
+        <li>
+          <a data-toggle="collapse" data-target=".navbar-collapse.in" href="#testimonial">Testimonial's</a>
+        </li>
+        <li>
+          <a data-toggle="collapse" data-target=".navbar-collapse.in" href="#plan">Select a plan</a>
+        </li>
+        <li>
+          <a data-toggle="collapse" data-target=".navbar-collapse.in" href="#contact">Contact</a>
+        </li>
+      </ul>
+
+    </div>
+  <!--/.nav-collapse -->
+  </div>
+  <!--/.container -->
+</nav>
+
+<div id="home"></div>
+<div class="headerContainer">
+  <div  id ="headerDiv"></div>
+  <div class="headerText">
+    <!-- header -->
+    <h1>Lorem ipsum</h1>
+    <!-- header info -->
+    <h3>sunt in culpa qui officia</h3>
+    <!-- header button -->
+    <a href="#about">
+    <button type="button" class="btn btn-success">
+      About Me
+    </button>
+    </a>
+  </div>
+<!-- link to about area -->
+<div id="about"></div>
+</div>
+
+<!-- about section -->
+<div class="container" id="aboutContainer">
+  <div class="row">
+    <!-- about image of person -->
+    <div class=" col-md-6 col-xs-12">
+      <img class="img-responsive" id="aboutImage" src="https://zach-col.github.io/theDj/img/djImage.jpg"/>
+    </div>
+    <!-- about info for person -->
+    <div class=" col-md-6 col-xs-12">
+      <h1 id="aboutText">About</h1>
+      <h3 id="aboutInfo">Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur.</h3>
+    </div>
+  </div>
+</div>
+<!-- link to intro area -->
+<div id="intro"></div>
+<!-- intro to youtube -->
+<div id="introContainer">
+  <div class="container ">
+  <!-- intro header -->
+  <h1 class=" text-center " id="introHeader">Intro to et dolore magna</h1>
+  <!-- intro youtube video -->
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/4f0p5KqdU9U"></iframe>
+    </div>
+  </div>
+</div>
+<!-- link to social area -->
+<div id="social"></div>
+<!-- social content links -->
+<!-- social header -->
+<div id="socialContainer">
+<h1 class="text-center">Social</h1>
+<div class="socialColor">
+  <div class="col-xs-3 ">
+      <a href="#" class="socialIconLink">
+        <i class="fa fa-facebook-official fa-3x" id="socialIcon" aria-hidden="true"></i>
+      </a>
+  </div>
+  <div class="col-xs-3 ">
+      <a href="#" class="socialIconLink">
+        <i class="fa fa-twitter fa-3x" id="socialIcon" aria-hidden="true"></i>
+      </a>
+  </div>
+  <div class="col-xs-3 ">
+      <a href="#" class="socialIconLink">
+        <i class="fa fa-youtube fa-3x" id="socialIcon" aria-hidden="true"></i>
+      </a>
+  </div>
+  <div class="col-xs-3 ">
+      <a href="#" class="socialIconLink">
+        <i class="fa fa-instagram fa-3x" id="socialIcon" aria-hidden="true"></i>
+      </a>
+  </div>
+</div>
+</div>
+<!-- link to testimonial area -->
+<div id="testimonial"></div>
+<!-- testi area -->
+<div id="testContainer">
+  <div class="container">
+    <h1 class="text-center" id="testHeader">Testimonial's</h1>
+    <!-- testimonial info box -->
+    <div class="testInfoBox">
+      <!-- testimonial text -->
+      <h2 class="testInfo">"great service could not have gone any better it was perfect"</h2>
+      <!-- testimonial image -->
+      <img src="https://zach-col.github.io/theDj/img/djImage.jpg" class="img-responsive testImg"/>
+      <!-- user name -->
+      <h3 class="testName">- Jack</h3>
+    </div>
+    <!-- testimonial info box -->
+    <div class="testInfoBox">
+      <!-- testimonial text -->
+      <h2 class="testInfo">"ipsum dolor sit amet, consectetur adipisicing elit"</h2>
+      <!-- testimonial image -->
+      <img src="https://zach-col.github.io/theDj/img/djImage.jpg" class="img-responsive testImg"/>
+      <!-- user name -->
+      <h3 class="testName">- John</h3>
+    </div>
+    <!-- testimonial info box -->
+    <div class="testInfoBox">
+      <!-- testimonial text -->
+      <h2 class="testInfo">"sit amet, consectetur adipisicing elit"</h2>
+      <!-- testimonial image -->
+      <img src="https://zach-col.github.io/theDj/img/djImage.jpg" class="img-responsive testImg"/>
+      <!-- user name -->
+      <h3 class="testName">- Joe</h3>
+    </div>
+  </div>
+</div>
+<!-- link to plan area -->
+<div id="plan"></div>
+</div>
+<div id="planContainer">
+  <div class="container">
+    <div class="col-md-4 col-xs-12">
+      <div class="planFeaturesContainer">
+      <div class="planHeaderContainer">
+        <h1>4 weeks</h1>
+      </div>
+      <h2 class="planHeader">Features</h2>
+      <div class="planFeature">
+        <h3><i class="fa fa-check fa-3x customIcon" aria-hidden="true"></i>Lorem Ipsum</h3>
+      </div>
+     <div class="planFeature">
+        <h3><i class="fa fa-check fa-3x customIcon" aria-hidden="true"></i>Lorem Ipsum</h3>
+      </div>
+     <div class="planFeature">
+        <h3><i class="fa fa-check fa-3x customIcon" aria-hidden="true"></i>Lorem Ipsum</h3>
+      </div>
+     <div class="planFeature">
+        <h3><i class="fa fa-check fa-3x customIcon" aria-hidden="true"></i>Lorem Ipsum</h3>
+      </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-xs-12">
+      <div class="planFeaturesContainer">
+      <div class="planHeaderContainer">
+        <h1>8 weeks</h1>
+      </div>
+      <h2 class="planHeader">Features</h2>
+      <div class="planFeature">
+        <h3><i class="fa fa-check fa-3x customIcon" aria-hidden="true"></i>Lorem Ipsum</h3>
+      </div>
+     <div class="planFeature">
+        <h3><i class="fa fa-check fa-3x customIcon" aria-hidden="true"></i>Lorem Ipsum</h3>
+      </div>
+     <div class="planFeature">
+        <h3><i class="fa fa-check fa-3x customIcon" aria-hidden="true"></i>Lorem Ipsum</h3>
+      </div>
+     <div class="planFeature">
+        <h3><i class="fa fa-check fa-3x customIcon" aria-hidden="true"></i>Lorem Ipsum</h3>
+      </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 col-xs-12">
+      <div class="planFeaturesContainer">
+      <div class="planHeaderContainer">
+        <h1>24 weeks</h1>
+      </div>
+      <h2 class="planHeader">Features</h2>
+      <div class="planFeature">
+        <h3><i class="fa fa-check fa-3x customIcon" aria-hidden="true"></i>Lorem Ipsum</h3>
+      </div>
+     <div class="planFeature">
+        <h3><i class="fa fa-check fa-3x customIcon" aria-hidden="true"></i>Lorem Ipsum</h3>
+      </div>
+     <div class="planFeature">
+        <h3><i class="fa fa-check fa-3x customIcon" aria-hidden="true"></i>Lorem Ipsum</h3>
+      </div>
+     <div class="planFeature">
+        <h3><i class="fa fa-check fa-3x customIcon" aria-hidden="true"></i>Lorem Ipsum</h3>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- link to contact area -->
+<div id="contact"></div>
+<!-- contact area -->
+<div id="contactContainer">
+  <div class="container">
+    <div class="col-xs-12">
+      <h2 id="contactHeader">Contact Information</h2>
+      <div id="contactHr"></div>
+      <h3>email: example@gmail.com</h3>
+      <h3>contact: 512-111-1111</h3>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-inverse navbar-bottom">
+  <div class="container">
+    <div class=" col-sm-6 col-xs-12">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Lorem Ipsum</a>
+        <a id="createdBy" href="#">Created By - zachariah col</a>
+
+      </div>
+    </div>
+  <!--/.nav-collapse -->
+  </div>
+  <!--/.container -->
+</nav>
+
+
+<!-- jquery v 3.2.1 -->
+<script src="js/jquery.min.js"></script>
+<!-- bootstrap v 3.3.7 js -->
+<script src="js/bootstrap.min.js"></script>
+<!-- smooth scroll -->
+<script type="text/javascript" src="js/smoothScroll.js"></script>
+<!-- navbar js -->
+<script type="text/javascript" src="js/navBar.js"></script>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+/* close dropdown menu on href click */
+$(".navbar-nav li a").click(function(event){
+  if (!$(this).parent().hasClass('dropdown'))
+    $(".navbar-collapse").collapse('hide');
+});
+</script>
 </body>
 </html>
