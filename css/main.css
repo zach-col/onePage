@@ -31,13 +31,12 @@ body{
     text-align: center;
   }
 }
-
 /* ----------------------------------------- about css */
 /* about container */
 #aboutContainer{
   margin-top: 40px;
   margin-bottom: 40px;
-  height: 100vh
+  height: auto;
 }
 /* about image of person */
 #aboutImage{
@@ -63,8 +62,8 @@ body{
 /* ----------------------------------------- intro css */
 /* intro container */
 #introContainer{
-  height: 100vh;
   background-color: black;
+  padding-bottom: 60px;
 }
 /* intro header */
 #introHeader{
