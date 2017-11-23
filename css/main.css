@@ -1,11 +1,14 @@
-body{
+body {
   font-family: "Times New Roman", Times, serif;
 }
+
 /* ---------------------------------   header css */
+
 /* header container */
 .headerContainer {
   position: relative;
 }
+
 /* header text */
 .headerText {
   position: absolute;
@@ -15,14 +18,13 @@ body{
   color: white;
   text-align: center;
 }
+
 /* header image */
 #headerDiv {
   width: 100%;
   height: 100vh;
   background-color: black;
-  /*opacity: 0.3;*/
 }
-/* header button */
 
 /* navbar on mobile*/
 @media screen and (max-width: 767px) {
@@ -31,85 +33,105 @@ body{
     text-align: center;
   }
 }
+
 /* ----------------------------------------- about css */
+
 /* about container */
-#aboutContainer{
+#aboutContainer {
   margin-top: 40px;
   margin-bottom: 40px;
   height: auto;
 }
+
+.aboutBtn {
+  margin-top: 20px;
+}
+
 /* about image of person */
-#aboutImage{
+#aboutImage {
   height: 400px;
   width: 100%;
   padding-top: 20px;
 }
+
 @media screen and (max-width: 767px) {
   #aboutInfo {
     text-align: center;
   }
 }
+
 /* about info header text */
-#aboutText{
+#aboutText {
   color: black;
 }
+
 /* center about text on mobile screens */
 @media screen and (max-width: 767px) {
   #aboutText {
     text-align: center;
   }
 }
+
 /* ----------------------------------------- intro css */
 /* intro container */
-#introContainer{
+#introContainer {
   background-color: black;
   padding-bottom: 60px;
 }
+
 /* intro header */
-#introHeader{
+#introHeader {
  color: white;
  padding-top: 40px;
 }
+
 /* ------------------------------------------ social css */
-#socialContainer{
+#socialContainer {
   padding-top: 70px;
   padding-bottom: 70px;
 }
-.socialColor{
+
+.socialColor {
   background-color: white;
   color: white;
   height: 81px;
 }
-.socialIcon{
+
+.socialIcon {
   text-align: center;
   margin: 0 auto;
   display: block;
   padding-top: 20px;
 }
 
-.socialIconLink{
+.socialIconLink {
   color: black;
   text-decoration: none;
 }
+
 .socialIconLink:hover, .socialIconLink:active {
   color: grey;
   text-decoration: none;
 }
+
 /* -------------------------------------------- contact */
-#contactContainer{
+#contactContainer {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-#contactHeader{
+
+#contactHeader {
   color: black;
 }
-#contactHr{
+
+#contactHr {
   color: grey;
   height: 1px;
   width: 34%;
   background-color: grey
 }
-#createdBy{
+
+#createdBy {
   float: left;
   height: 50px;
   padding-top: 15px;
@@ -119,57 +141,68 @@ body{
   text-decoration: underline;
 }
 
-
 /* ------------------------------------------------ testi css */
-#testHeader{
+
+#testHeader {
   color: white;
 }
-#testContainer{
+
+#testContainer {
   background-color: black;
 }
-.testInfoBox{
+
+.testInfoBox {
   background-color: white;
   margin-bottom: 90px;
 }
-.testInfo{
+
+.testInfo {
   text-align: center;
   padding: 30px;
 }
-.testImg{
+
+.testImg {
   display: block;
   margin: 0 auto;
   height: 150px;
   width: 150px;
   border-radius: 50%;
 }
-.testName{
+
+.testName {
   text-align: center;
   padding-bottom:30px;
 }
+
 /* --------------------  plans */
-#planContainer{
+
+#planContainer {
   margin-top: 40px;
 }
-.planFeaturesContainer{
+
+.planFeaturesContainer {
   border: 1px solid black;
-  padding-top: -20px;
   border-radius: 25px 25px 25px 25px;
   margin-top: 20px;
 }
-.planHeaderContainer{
+
+.planHeaderContainer {
   background-color: black;
   padding: 20px;
   text-align: center;
   color: white;
   border-radius: 25px 25px 0px 0px;
 }
-.planHeader{
+
+.planHeader {
   color: black;
   text-align: center;
 }
-.planFeature{
+
+.planFeature {
   text-align: center;
 }
-.customIcon{
+
+.customIcon {
   color: green;
 }

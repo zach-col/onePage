@@ -1,1 +1,108 @@
-/* navbar background color*/.navbar-inverse{ /* first color */ background-color: black; /* first color */ border-color: black; border-radius: 0px;}/* navbar brand */.navbar-inverse .navbar-brand{ /* second color */ color: white;}/* navbar brand on hover etc... */.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover { /* third color*/ color: grey; background-color: transparent;}/* navbar active links */.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{ /* second color * color: white; /* third color */ background-color: black;}/* navbar links*/.navbar-inverse .navbar-nav>li>a { /* secod color */ color: white;}/* navbar links on hover*/.navbar-inverse .navbar-nav>li>a:hover { /* third color */ color: grey;}/* navbar dropdown*/.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover { /* second color*/ color: white; /* first color*/ background-color: black;}/* dropdown background color*/.dropdown-menu { background-color: white;}/*down links*/.dropdown-menu>li>a { /* first color*/ color: black;}/* dropdown links on hover etc...*/.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover { /* first color * color: black; /* third color*/ background-color: grey;}/* dropdown link divider*/.dropdown-menu .divider { /* third color*/ background-color: grey;}/* dropdown header*/.dropdown-header{ display: block; color: grey;}/* dropdown links on mobile*/@media only screen and (max-width: 767px) { .navbar-inverse .navbar-nav .open .dropdown-menu>li>a { /* third color */; color: grey; }}/* dropdown divider on mobile*/@media only screen and (max-width: 767px) { .navbar-inverse .navbar-nav .open .dropdown-menu .divider{ background-color: white; }}/* dropdown link on mobile*/@media only screen and (max-width: 767px) { .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover { /* second color */ color: white; }}.navbar{margin-bottom: 0px;}
+/* navbar background color*/
+.navbar-inverse {
+  /* first color */
+  background-color: black;
+  /* first color */
+  border-color: black;
+  border-radius: 0px;
+}
+
+/* navbar brand */
+.navbar-inverse .navbar-brand {
+  /* second color */ color: white;
+}
+
+/* navbar brand on hover etc... */
+.navbar-inverse .navbar-brand:focus,
+.navbar-inverse .navbar-brand:hover {
+  /* third color*/
+  color: grey;
+  background-color: transparent;
+}
+
+/* navbar active links */
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+  /* second color * color: white; /* third color */
+  background-color: black;
+}
+
+/* navbar links*/
+.navbar-inverse .navbar-nav>li>a {
+  /* secod color */
+  color: white;
+}
+
+/* navbar links on hover*/
+.navbar-inverse .navbar-nav>li>a:hover {
+  /* third color */
+  color: grey;
+}
+
+/* navbar dropdown*/
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover {
+  /* second color*/
+  color: white;
+  /* first color*/
+  background-color: black;
+}
+
+/* dropdown background color*/
+.dropdown-menu {
+  background-color: white;
+}
+
+/*down links*/
+.dropdown-menu>li>a {
+  /* first color*/ color: black;
+}
+
+/* dropdown links on hover etc...*/
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+  /* first color */
+  color: black;
+  /* third color*/
+  background-color: grey;
+}
+
+/* dropdown link divider*/
+.dropdown-menu .divider {
+  /* third color*/
+  background-color: grey;
+}
+
+/* dropdown header*/
+.dropdown-header {
+  display: block;
+  color: grey;
+}
+
+/* dropdown links on mobile*/
+@media only screen and (max-width: 767px) {
+  .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    /* third color */; color: grey;
+  }
+}
+
+/* dropdown divider on mobile*/
+@media only screen and (max-width: 767px) {
+  .navbar-inverse .navbar-nav .open .dropdown-menu .divider{
+    background-color: white;
+  }
+}
+
+/* dropdown link on mobile*/
+@media only screen and (max-width: 767px) {
+  .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus,
+  .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+    /* second color */ color: white;
+  }
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
